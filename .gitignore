@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django specific
+*.sqlite3
+/staticfiles/
+/mediafiles/
+
+# Environment variables (NEVER commit secrets)
+.env
+*.env
+
+# VS Code settings (optional — some teams keep this)
+.vscode/
+
+# OS junk
+.DS_Store        # Mac
+Thumbs.db        # Windows
+
+# Logs
+*.log
